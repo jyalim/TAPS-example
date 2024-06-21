@@ -26,6 +26,8 @@ Common TAPS rendering issues
   requires `\bibliographystyle{ACM-Reference-Format}`.
 * Don't stray too far with unsupported [ACM packages][packages].
   `newfloat` broke the compile for me.
+* Make sure the acknowledgement section matches conference guidelines.
+  For PEARC, use `\begin{acks}...\end{acks}` environment.
 
 
 [packages]: https://authors.acm.org/proceedings/production-information/accepted-latex-packages 
