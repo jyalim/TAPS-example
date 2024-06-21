@@ -24,6 +24,11 @@ Common TAPS rendering issues
   included compiler.
 * Make sure that you are using the right bibliography style. PEARC24
   requires `\bibliographystyle{ACM-Reference-Format}`.
+* Don't stray too far with unsupported [ACM packages][packages].
+  `newfloat` broke the compile for me.
+
+
+[packages]: https://authors.acm.org/proceedings/production-information/accepted-latex-packages 
 
 
 
